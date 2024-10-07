@@ -1,0 +1,46 @@
+{
+    "name": "CharacterJump",
+    "maps": [
+        {
+            "name": "CharacterJump",
+            "id": "9935d35a-3b5f-4583-ab87-c1169d528e45",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "831cddde-e49b-4072-a634-8a7377dcd7a7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "434868e0-c936-4fb6-aac2-f89198b8a16d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "CharacterJump",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "CharacterJump",
+            "bindingGroup": "CharacterJump",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
