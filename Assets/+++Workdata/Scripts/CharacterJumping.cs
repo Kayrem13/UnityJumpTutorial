@@ -8,11 +8,8 @@ public class CharacterJumping : MonoBehaviour
     private Rigidbody2D rb;
 
     [SerializeField] private float jumpforce = 5f;
-
     [SerializeField] private Transform groundCheckPosition;
-
     [SerializeField] private float groundCheckRadius;
-
     [SerializeField] private LayerMask layerGround;
     
     // Start is called before the first frame update
@@ -27,7 +24,6 @@ public class CharacterJumping : MonoBehaviour
         {
             rb.velocity = new Vector2(0f, jumpforce);
         }
-        
     }
     
 }
